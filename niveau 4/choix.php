@@ -8,7 +8,7 @@
 
 
 if (($a*$b)!=$c) {
-	echo "<center><h2>Vous avez faussez la reponse:<br></h1> ".$a*$b." </h2></center>";
+	echo "<center><h2 >Vous avez faussez la reponse:<br></h1><span style='color:red;'> ".$a*$b." </span></h2></center>";
 
 }
     else{
@@ -24,7 +24,7 @@ $a1=$_POST["resultat4"];
 
 
 if (($a1*$b1)!=$c1) {
-	echo "<center><h2>Vous avez faussez la reponse:<br></h1> ".$a1*$b1." </h2></center>";
+	echo "<center><h2>Vous avez faussez la reponse:<br></h1><span style='color:red;'> ".$a1*$b1." </span> </h2></center>";
 
 }
     else{
@@ -44,7 +44,7 @@ $a2=$_POST["resultat7"];
 
 
 if (($a2*$b2)!=$c2) {
-	echo "<center><h2>Vous avez faussez la reponse:<br></h1> ".$a2*$b2." </h2></center>";
+	echo "<center><h2>Vous avez faussez la reponse:<br></h1> <span style='color:red;'>".$a2*$b2." </span> </h2></center>";
 
 }
     else{
@@ -60,7 +60,7 @@ $a3=$_POST["resultat10"];
 
 
 if (($a3*$b3)!=$c3) {
-	echo "<center><h2>Vous avez faussez la reponse:<br></h1> ".$a3*$b3." </h2></center>";
+	echo "<center><h2>Vous avez faussez la reponse:<br></h1> <span style='color:red;'>".$a3*$b3." </span> </h2></center>";
 
 }
     else{
@@ -69,6 +69,6 @@ if (($a3*$b3)!=$c3) {
 echo "<center><h2>Vous avez trouver la reponse:<br>".$c3." </h2></center>";
 }
 
-echo "<center><h2>Vous avez <br>".$i."point(s) </h2></center>";
+echo "<center><h2>Vous avez <br>".$i."/4 point(s) </h2></center>";
 
  ?>
